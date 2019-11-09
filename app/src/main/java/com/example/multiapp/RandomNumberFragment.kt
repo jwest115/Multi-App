@@ -13,9 +13,6 @@ import com.example.multiapp.databinding.FragmentRandomNumberBinding
 import kotlinx.android.synthetic.main.fragment_random_number.*
 import java.util.*
 
-/**
- * A simple [Fragment] subclass.
- */
 class RandomNumberFragment : Fragment() {
     var previous = -1
     var number1 = -1

@@ -9,9 +9,6 @@ import androidx.navigation.findNavController
 import com.example.multiapp.databinding.FragmentDieRollerBinding
 import java.util.*
 
-/**
- * A simple [Fragment] subclass.
- */
 class DieRollerFragment : Fragment() {
     private lateinit var binding: FragmentDieRollerBinding
     override fun onCreateView(

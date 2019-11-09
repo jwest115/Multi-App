@@ -9,11 +9,6 @@ import androidx.databinding.DataBindingUtil
 import com.example.multiapp.databinding.FragmentTipCalculatorBinding
 import java.text.DecimalFormat
 
-
-
-/**
- * A simple [Fragment] subclass.
- */
 class TipCalculatorFragment : Fragment() {
     var tipAmount : Double? = null
     var totalAmount : Double? = null
