@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Multi App</string>
+    <string name="app_name_random_number_generator">Random Number Generator</string>
+    <string name="random_number_generator_name">Get a Random Number!</string>
+    <string name="without_replacement">Without Replacement</string>
+    <string name="generated_number" />
+    <string name="submit_button_text">GET NUMBER</string>
+    <string name="random_number_generator">Get a Random Number!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="app_name_pair_o_dice">Pair O Dice</string>
+    <string name="roll">Roll</string>
+    <string name="price_title">Enter the Price!</string>
+    <string name="price_label">Enter the Price!</string>
+    <string name="fifteen_percent_string">15%</string>
+    <string name="eighteen_percent_string">18%</string>
+    <string name="twenty_percenty_string">20%</string>
+    <string name="price_hint">$0.00</string>
+    <string name="app_name_tip_calculator">Tip Calculator</string>
+    <string name="calculate">Calculate!</string>
+    <string name="share_success_text">%1$s\n%2$s</string>
+
+</resources>

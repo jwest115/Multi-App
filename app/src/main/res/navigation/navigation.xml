@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    android:label="Random Number Generator"
+    app:startDestination="@id/randomNumberFragment">
+
+    <fragment
+        android:id="@+id/randomNumberFragment"
+        android:name="com.example.multiapp.RandomNumberFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <action
+            android:id="@+id/action_randomNumberFragment_to_dieRollerFragment"
+            app:destination="@id/dieRollerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dieRollerFragment"
+        android:name="com.example.multiapp.DieRollerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     >
+        <action
+            android:id="@+id/action_dieRollerFragment_to_tipCalculatorFragment"
+            app:destination="@id/tipCalculatorFragment"
+            app:popUpTo="@id/dieRollerFragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/tipCalculatorFragment"
+        android:name="com.example.multiapp.TipCalculatorFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <action
+            android:id="@+id/action_tipCalculatorFragment_to_randomNumberFragment2"
+            app:destination="@id/randomNumberFragment"
+            app:popUpTo="@id/randomNumberFragment" />
+    </fragment>
+
+</navigation>
